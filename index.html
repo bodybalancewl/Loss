@@ -1,0 +1,206 @@
+<div id="countdown"></div>
+<style>
+    #countdown {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        background-color: #000;
+        color: #fff;
+    }
+</style>
+<script>
+    // Set the date for Black Friday
+    var countDownDate = new Date("Feb 30, 2023 00:00:00").getTime();
+
+    // Update the countdown every second
+    var x = setInterval(function() {
+
+        // Get the current time
+        var now = new Date().getTime();
+
+        // Calculate the time remaining
+        var distance = countDownDate - now;
+
+        // Calculate the days, hours, minutes and seconds remaining
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the countdown in the element with id="countdown"
+        document.getElementById("countdown").innerHTML = "Limited offer : " + days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+
+        // If the countdown is over, display a message
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("countdown").innerHTML = "Black Friday is here!";
+        }
+    }, 1000);
+</script>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>BodyBalance Fitness & Weight Loss</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONTS -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- JS -->
+  <script src="js/scrollReveal.js"></script>
+  <script src="js/jquery-1.11.2.min.js"></script>
+
+  <style type="text/css">
+    @media (max-width: 991px) {
+      .absolute-img {
+        position: relative!important;
+        top: 0!important;
+      }
+    }
+  </style>
+</head>
+<body style="background-color: transparent;" >
+  <!-- header -->
+  <div class="full-width full-width-background1 header" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" align="center" style="">
+          <img src="images/logo-light.webp" style="max-width: 300px"; align="center" class="logo" alt="The Bulletproof Keto Diet">
+          <p style="text-align: center; color: #ffffff; padding:0px; font-size: 19px; width: 75%; border-radius: 150px; background-color: #b10700;background-repeat: round;background-size: cover;">Are You Ready To Lose Weight And Reboot Your Metabolism?</p>
+          <h1 style="color: #ffffff; font-weight: 600;font-size: 30px;"></h1>
+          <h1 style="color: #ffffff; font-weight: 600;font-size: 20px;">Welcome to the ultimate free weight loss resources worth $600!</h1>
+          <div class="row">
+            <div class="col-md-6">
+              <center>
+                <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ieesczB-vNg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </center>
+            </div>
+            <div class="col-md-6">
+              <ul class="list-icon-1">
+                <li>Looking to shed some extra pounds? Don't miss out on this amazing opportunity to access free weight loss resources worth a whopping $600!</li>
+                <li>With 10 paid books and courses from top researchers in the world of weight loss, you'll have everything you need to achieve your goals</li>
+                <li>These courses provide everything you're looking for in a weight loss program, so don't wait - grab this opportunity today!</li>
+              </ul>
+            </div>
+          </div>  
+          <h1 align="center" style="margin-bottom: unset; padding-top: 35px; padding-bottom:85px; margin-top: -30px;"><a href="https://playabledownload.com/1352886"><img class="header-buy-button" src="images/buy-button.webp" width="575" height="135"></a></h1>
+        </div>      
+      </div>
+    </div>
+  </div>
+
+  <!-- main content -->
+  <div class="main-content">
+
+    <!-- content 1 -->
+   <div class="full-width">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" style="padding: unset;">
+            <p><br></p>
+            <h4><strong>Dear Friend,<br></strong></h4>
+            <p>Looking to shed some extra pounds? a weight loss resource that includes 10 expert-recommended books and free courses to help achieve weight loss goals</p>
+            <p> The resource can be downloaded for immediate access and there is a special offer available for a limited time. </p>
+            <p><br></p>
+          </div>
+          <div class="col-md-6">
+              <img class="absolute-img" src="images/friend.webp" alt="Stress" style=" max-width: 100%; width: 58%;    ">
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+  
+
+   
+
+
+    <!-- FAQ -->
+    <div class="full-width" style="background: url(images/q1.png) no-repeat center center;background-size: cover;border-top: 3px solid #eee;">>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12" align="center">
+            <h3><strong>Frequently Asked Questions</strong></h3>
+            <div class="row">
+            	<div class="col-md-6">
+            		<div class="faq">
+            			<p><img src="images/qc.png" alt="Q&A" width="32"><strong> What's included in the free weight loss resources?</strong></p>
+            			<p class="answer">The offer of free weight loss resources includes a file with 10 books and courses worth 600 dollars. These resources cover a range of topics related to weight loss, including diet, exercise, mindset and motivation..</p>
+            		</div>
+            		<div class="faq">
+            			<p><img src="images/qc.png" alt="Q&A" width="32"></i><strong> How do I access weight loss resources for free?</strong></p>
+	            		<p class="answer">To access free weight loss resources, you will need to click on the download link, you will be able to download the file, which includes 10 books and courses<br><br></p>
+	            	
+	            		</ul>
+            		</div>
+            		<div class="faq">
+            			<p><img src="images/qc.png" alt="Q&A" width="32"><strong> How long will it take to see results from using the resources?</strong></p>
+            			<p class="answer">The time it takes to see results from using the resources can vary depending on several factors, including your starting weight, diet, exercise regimen, and genetics. Results may start showing within a few weeks or months, but significant changes may take longer.</p>
+            		</div>
+                <div class="faq">
+                  <p><img src="images/qc.png" alt="Q&A" width="32"><strong> How do I get INSTANT ACCESS?</strong></p>
+                  <p class="answer">Click the button below now…</p>
+                </div>
+            	</div>
+            	<div class="col-md-6">
+            		<div class="faq">
+            			<p><img src="images/qc.png" alt="Q&A" width="32"><strong>Is the offer really free? </strong></p>
+            			<p class="answer">Yes, the offer is completely free. You won't need to pay anything to access the 10 expert-recommended books and courses.</p>
+            		</div>
+            		<div class="faq">
+            			<p><img src="images/qc.png" alt="Q&A" width="32"><strong>Can anyone access the free weight loss resources?</strong></p>
+            			<p class="answer">YYes, anyone who is interested in losing weight and accessing expert-recommended resources can access the free weight loss resources.</p>
+            		</div>
+            		<div class="faq">
+            			<p><img src="images/qc.png" alt="Q&A" width="32"><strong> Are there any additional costs associated with the offer?</strong></p>
+            			<p class="answer">No, there are no additional costs associated with the offer. </p>
+            		</div>
+            		<div class="faq">
+            			<p><img src="images/qc.png" alt="Q&A" width="32"><strong> Can I access the resources on any device?</strong></p>
+            			<p class="answer">The resources are delivered in a file that may be in PDF format, which means you can view it on any device that supports files, such as a computer, tablet, or smartphone.<br><br>No questions asked!</p> 
+            		</div>
+            	</div>
+            </div>
+            <a href="https://playabledownload.com/1352886"><img src="images/buy-button.webp" alt="Buy Button"></a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+   <!-- end main content -->
+  
+   <!-- footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" align="center">
+          <p style="color: #ffffff;"><a href="" target="_blank" style="color: #ffffff;" ></a> <a href="" target="_blank" style="color: #ffffff;"></a>  <a href="" target="_blank" style="color: #ffffff;"></a>  <a href="s" target="_blank" style="color: #ffffff;"></a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    jQuery(function($){
+     window.scrollReveal = new scrollReveal();
+    });
+  </script>
+</body>
+</html>
